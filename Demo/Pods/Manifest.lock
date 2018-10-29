@@ -1,0 +1,16 @@
+PODS:
+  - SwapkeyExtensionSDK (0.2.2)
+
+DEPENDENCIES:
+  - SwapkeyExtensionSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwapkeyExtensionSDK
+
+SPEC CHECKSUMS:
+  SwapkeyExtensionSDK: 5b22bab19a602ac6b7af7fc7718a44dbd6077f6e
+
+PODFILE CHECKSUM: 7bc99250865b2e042022c433b8f169ecaaa9e104
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,14 @@
+platform :ios, '8.0'
+use_frameworks!
+
+def swap_pods
+	pod 'SwapkeyExtensionSDK'
+end
+
+target 'Demo' do
+    swap_pods
+end
+
+target 'DemoKeyboard' do
+    swap_pods
+end
