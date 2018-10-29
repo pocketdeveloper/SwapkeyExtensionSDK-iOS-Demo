@@ -76,7 +76,7 @@ A continuación se proporciona un ejemplo de cómo almacenar este número en NSD
 
 Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
-* [Guía](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
+* [Guía](https://swapme.mx/SwapkeySDK.html) - The web framework used
 
 ### Indispensables
 
@@ -85,12 +85,6 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 - Para inicializar los *NSUserDefaults* se deberá utilizar: '[SKEOptions getBundleGroup]' puesto que esta misma se utilizará dentro del SDK
 - De igual manera obtener el key de donde se almacenará la variable se deberá utilizar '[SKEOptions getVaribleToStoreDeviceID]'
 - La clase 'SKEOptions' se deberá compartir con el target de la extensión
-
-## Tutoriales
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ##  Version
 
