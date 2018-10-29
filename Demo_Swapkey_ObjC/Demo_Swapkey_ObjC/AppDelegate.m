@@ -17,10 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    if ([Swapkey initializeWithKey:@"Obj - Demo"])
         return YES;
-    else
-        return NO;
 }
 
 
@@ -43,7 +40,6 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    [Swapkey enableDebugging];
 }
 
 

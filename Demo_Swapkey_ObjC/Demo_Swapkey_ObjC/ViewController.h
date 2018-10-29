@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <SwapkeyExtensionSDK/SwapkeyExtensionSDK.h>
+
+@class Swapkey;
+
 
 @interface ViewController : UIViewController
 

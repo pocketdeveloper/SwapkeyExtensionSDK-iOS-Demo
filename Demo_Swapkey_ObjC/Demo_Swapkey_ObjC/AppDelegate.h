@@ -7,9 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SwapkeyExtensionSDK/SwapkeyExtensionSDK.h>
-
-@class Swapkey;
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 

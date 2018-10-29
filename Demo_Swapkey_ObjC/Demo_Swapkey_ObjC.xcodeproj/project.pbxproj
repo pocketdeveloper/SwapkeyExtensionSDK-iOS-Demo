@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F7B4679218667FF00821D2F /* SKEOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B4678218667FF00821D2F /* SKEOptions.m */; };
+		3F7B4680218694F100821D2F /* SKEOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B4678218667FF00821D2F /* SKEOptions.m */; };
+		3F8BED282183D625000932CF /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8BED272183D625000932CF /* KeyboardViewController.m */; };
+		3F8BED2C2183D625000932CF /* KeyboardExtension-Demo.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3F8BED242183D625000932CF /* KeyboardExtension-Demo.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		41A89F6F211D4F58002580C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A89F6E211D4F58002580C1 /* AppDelegate.m */; };
 		41A89F72211D4F58002580C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A89F71211D4F58002580C1 /* ViewController.m */; };
 		41A89F75211D4F58002580C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A89F73211D4F58002580C1 /* Main.storyboard */; };
@@ -14,11 +18,46 @@
 		41A89F7A211D4F59002580C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41A89F78211D4F59002580C1 /* LaunchScreen.storyboard */; };
 		41A89F7D211D4F59002580C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41A89F7C211D4F59002580C1 /* main.m */; };
 		41A89F85211D4FF0002580C1 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A89F84211D4FF0002580C1 /* Test.swift */; };
+		B43FB5B4136CD8BB54BBF06F /* Pods_KeyboardExtension_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1FB2129817BD4661C02213 /* Pods_KeyboardExtension_Demo.framework */; };
 		D5964DC256CDDF49E318BEB1 /* Pods_Demo_Swapkey_ObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD38E403EE7D5E6031D9A521 /* Pods_Demo_Swapkey_ObjC.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3F8BED2A2183D625000932CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41A89F62211D4F58002580C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F8BED232183D625000932CF;
+			remoteInfo = "KeyboardExtension-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F8BED302183D625000932CF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3F8BED2C2183D625000932CF /* KeyboardExtension-Demo.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2E1FB2129817BD4661C02213 /* Pods_KeyboardExtension_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeyboardExtension_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		370E51B6B82C7E8E05B7B846 /* Pods-KeyboardExtension-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardExtension-Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardExtension-Demo/Pods-KeyboardExtension-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		3824C7F5E1379308EF86B90D /* Pods-Demo_Swapkey_ObjC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Swapkey_ObjC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7B4677218667FF00821D2F /* SKEOptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEOptions.h; sourceTree = "<group>"; };
+		3F7B4678218667FF00821D2F /* SKEOptions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEOptions.m; sourceTree = "<group>"; };
+		3F84A39E2186554200CACEB4 /* KeyboardExtension-Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "KeyboardExtension-Demo.entitlements"; sourceTree = "<group>"; };
+		3F84A39F218656C700CACEB4 /* Demo_Swapkey_ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Demo_Swapkey_ObjC.entitlements; sourceTree = "<group>"; };
+		3F8BED242183D625000932CF /* KeyboardExtension-Demo.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KeyboardExtension-Demo.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8BED262183D625000932CF /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		3F8BED272183D625000932CF /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		3F8BED292183D625000932CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41A89F6A211D4F58002580C1 /* Demo_Swapkey_ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo_Swapkey_ObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A89F6D211D4F58002580C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		41A89F6E211D4F58002580C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,11 +70,20 @@
 		41A89F7C211D4F59002580C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		41A89F83211D4FF0002580C1 /* Demo_Swapkey_ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo_Swapkey_ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
 		41A89F84211D4FF0002580C1 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		79B63AE411C4BBC452760AE8 /* Pods-KeyboardExtension-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeyboardExtension-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-KeyboardExtension-Demo/Pods-KeyboardExtension-Demo.release.xcconfig"; sourceTree = "<group>"; };
 		DD38E403EE7D5E6031D9A521 /* Pods_Demo_Swapkey_ObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo_Swapkey_ObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED3B0BEE97ADA07AC74D10B0 /* Pods-Demo_Swapkey_ObjC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo_Swapkey_ObjC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F8BED212183D625000932CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B43FB5B4136CD8BB54BBF06F /* Pods_KeyboardExtension_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41A89F67211D4F58002580C1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -51,14 +99,36 @@
 			isa = PBXGroup;
 			children = (
 				DD38E403EE7D5E6031D9A521 /* Pods_Demo_Swapkey_ObjC.framework */,
+				2E1FB2129817BD4661C02213 /* Pods_KeyboardExtension_Demo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F7B4676218667BD00821D2F /* SKEFiles */ = {
+			isa = PBXGroup;
+			children = (
+				3F7B4677218667FF00821D2F /* SKEOptions.h */,
+				3F7B4678218667FF00821D2F /* SKEOptions.m */,
+			);
+			path = SKEFiles;
+			sourceTree = "<group>";
+		};
+		3F8BED252183D625000932CF /* KeyboardExtension-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3F84A39E2186554200CACEB4 /* KeyboardExtension-Demo.entitlements */,
+				3F8BED262183D625000932CF /* KeyboardViewController.h */,
+				3F8BED272183D625000932CF /* KeyboardViewController.m */,
+				3F8BED292183D625000932CF /* Info.plist */,
+			);
+			path = "KeyboardExtension-Demo";
 			sourceTree = "<group>";
 		};
 		41A89F61211D4F58002580C1 = {
 			isa = PBXGroup;
 			children = (
 				41A89F6C211D4F58002580C1 /* Demo_Swapkey_ObjC */,
+				3F8BED252183D625000932CF /* KeyboardExtension-Demo */,
 				41A89F6B211D4F58002580C1 /* Products */,
 				5B4C2EF6C056BE7610C57C34 /* Pods */,
 				329E2BA880407DD5238417CE /* Frameworks */,
@@ -69,6 +139,7 @@
 			isa = PBXGroup;
 			children = (
 				41A89F6A211D4F58002580C1 /* Demo_Swapkey_ObjC.app */,
+				3F8BED242183D625000932CF /* KeyboardExtension-Demo.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +147,8 @@
 		41A89F6C211D4F58002580C1 /* Demo_Swapkey_ObjC */ = {
 			isa = PBXGroup;
 			children = (
+				3F7B4676218667BD00821D2F /* SKEFiles */,
+				3F84A39F218656C700CACEB4 /* Demo_Swapkey_ObjC.entitlements */,
 				41A89F6D211D4F58002580C1 /* AppDelegate.h */,
 				41A89F6E211D4F58002580C1 /* AppDelegate.m */,
 				41A89F70211D4F58002580C1 /* ViewController.h */,
@@ -96,6 +169,8 @@
 			children = (
 				3824C7F5E1379308EF86B90D /* Pods-Demo_Swapkey_ObjC.debug.xcconfig */,
 				ED3B0BEE97ADA07AC74D10B0 /* Pods-Demo_Swapkey_ObjC.release.xcconfig */,
+				370E51B6B82C7E8E05B7B846 /* Pods-KeyboardExtension-Demo.debug.xcconfig */,
+				79B63AE411C4BBC452760AE8 /* Pods-KeyboardExtension-Demo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -103,6 +178,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F8BED232183D625000932CF /* KeyboardExtension-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F8BED2F2183D625000932CF /* Build configuration list for PBXNativeTarget "KeyboardExtension-Demo" */;
+			buildPhases = (
+				6F4E5EFC87340147688ECA1B /* [CP] Check Pods Manifest.lock */,
+				3F8BED202183D625000932CF /* Sources */,
+				3F8BED212183D625000932CF /* Frameworks */,
+				3F8BED222183D625000932CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KeyboardExtension-Demo";
+			productName = "KeyboardExtension-Demo";
+			productReference = 3F8BED242183D625000932CF /* KeyboardExtension-Demo.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		41A89F69211D4F58002580C1 /* Demo_Swapkey_ObjC */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41A89F80211D4F59002580C1 /* Build configuration list for PBXNativeTarget "Demo_Swapkey_ObjC" */;
@@ -111,11 +204,13 @@
 				41A89F66211D4F58002580C1 /* Sources */,
 				41A89F67211D4F58002580C1 /* Frameworks */,
 				41A89F68211D4F58002580C1 /* Resources */,
-				F1BC1D3A600F15208CD42E0F /* [CP] Embed Pods Frameworks */,
+				3F8BED302183D625000932CF /* Embed App Extensions */,
+				3D5626DE051CC9E69ACAED63 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3F8BED2B2183D625000932CF /* PBXTargetDependency */,
 			);
 			name = Demo_Swapkey_ObjC;
 			productName = Demo_Swapkey_ObjC;
@@ -131,9 +226,22 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Carolina Franco";
 				TargetAttributes = {
+					3F8BED232183D625000932CF = {
+						CreatedOnToolsVersion = 10.0;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
 					41A89F69211D4F58002580C1 = {
 						CreatedOnToolsVersion = 9.4;
 						LastSwiftMigration = 0940;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -151,11 +259,19 @@
 			projectRoot = "";
 			targets = (
 				41A89F69211D4F58002580C1 /* Demo_Swapkey_ObjC */,
+				3F8BED232183D625000932CF /* KeyboardExtension-Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F8BED222183D625000932CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41A89F68211D4F58002580C1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +285,50 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		3D5626DE051CC9E69ACAED63 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC-frameworks.sh",
+				"${PODS_ROOT}/SwapkeyExtensionSDK/SwapkeyExtensionSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwapkeyExtensionSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F4E5EFC87340147688ECA1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KeyboardExtension-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D2F75E9669BD55405666BB40 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -187,27 +347,18 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F1BC1D3A600F15208CD42E0F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC-frameworks.sh",
-				"${PODS_ROOT}/SwapkeyExtensionSDK/SwapkeyExtensionSDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwapkeyExtensionSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Demo_Swapkey_ObjC/Pods-Demo_Swapkey_ObjC-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F8BED202183D625000932CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F7B4680218694F100821D2F /* SKEOptions.m in Sources */,
+				3F8BED282183D625000932CF /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		41A89F66211D4F58002580C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -215,11 +366,20 @@
 				41A89F72211D4F58002580C1 /* ViewController.m in Sources */,
 				41A89F85211D4FF0002580C1 /* Test.swift in Sources */,
 				41A89F7D211D4F59002580C1 /* main.m in Sources */,
+				3F7B4679218667FF00821D2F /* SKEOptions.m in Sources */,
 				41A89F6F211D4F58002580C1 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F8BED2B2183D625000932CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F8BED232183D625000932CF /* KeyboardExtension-Demo */;
+			targetProxy = 3F8BED2A2183D625000932CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		41A89F73211D4F58002580C1 /* Main.storyboard */ = {
@@ -241,6 +401,51 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F8BED2D2183D625000932CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 370E51B6B82C7E8E05B7B846 /* Pods-KeyboardExtension-Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KeyboardExtension-Demo/KeyboardExtension-Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34G9538PL;
+				INFOPLIST_FILE = "KeyboardExtension-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swap.Demo-Swapkey-ObjC.KeyboardExtension-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F8BED2E2183D625000932CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B63AE411C4BBC452760AE8 /* Pods-KeyboardExtension-Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "KeyboardExtension-Demo/KeyboardExtension-Demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34G9538PL;
+				INFOPLIST_FILE = "KeyboardExtension-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.swap.Demo-Swapkey-ObjC.KeyboardExtension-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		41A89F7E211D4F59002580C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -357,6 +562,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Demo_Swapkey_ObjC/Demo_Swapkey_ObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P34G9538PL;
@@ -381,6 +587,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Demo_Swapkey_ObjC/Demo_Swapkey_ObjC.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = P34G9538PL;
@@ -401,6 +608,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F8BED2F2183D625000932CF /* Build configuration list for PBXNativeTarget "KeyboardExtension-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8BED2D2183D625000932CF /* Debug */,
+				3F8BED2E2183D625000932CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		41A89F65211D4F58002580C1 /* Build configuration list for PBXProject "Demo_Swapkey_ObjC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

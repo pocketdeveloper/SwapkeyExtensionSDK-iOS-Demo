@@ -14,16 +14,32 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    if ([Swapkey initializeWithKey:@"key"])
+    {
+        [Swapkey enableDebugging];
+        [self setDeviceID];
+    }
 }
 
 
-- (void)didReceiveMemoryWarning {
+- (void)didReceiveMemoryWarning
+{
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
+
+-(void)setDeviceID
+{
+    UIDevice *device = [UIDevice currentDevice];
+    NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
+    uniqueIdentifier = [uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
+    NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName:[SKEOptions getBundleGroup]];
+    [def setObject:uniqueIdentifier forKey:[SKEOptions getVaribleToStoreDeviceID]];
+    [def synchronize];
+}
 
 @end
