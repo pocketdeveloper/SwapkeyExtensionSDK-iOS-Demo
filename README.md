@@ -76,7 +76,7 @@ A continuación se proporciona un ejemplo de cómo almacenar este número en NSD
 
 Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
-* [Guía](https://swapme.mx/SwapkeySDK.html) - The web framework used
+* [Guía](https://swapme.mx/SwapkeySDK.html) - Paso a Paso
 
 ### Indispensables
 
@@ -92,5 +92,5 @@ Prerelease: 0.2.2
 
 ## Authors
 
-* **Carolina Franco** - *Swap* - Algo
+* **Carolina Franco** - *Swap*
 
