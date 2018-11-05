@@ -88,7 +88,7 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Version
 
-Prerelease: 0.2.2
+Prerelease: 0.2.3
 
 ## Authors
 
