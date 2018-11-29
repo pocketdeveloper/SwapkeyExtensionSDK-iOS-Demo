@@ -182,6 +182,28 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UIColor;
+
+SWIFT_CLASS("_TtC19SwapkeyExtensionSDK9SKEColors")
+@interface SKEColors : NSObject
++ (UIColor * _Nonnull)backgroundCustomColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)amountsColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)activityColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)genaralTitlesColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)btnActiveBackgroundColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)btnActiveFontColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nullable)customButtonsTintColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nullable)customKeyboardTintColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)lblTitleColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)lblNormalColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)errorColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)stripeCardBackgroundColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)stripeCardTextColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)paidColor SWIFT_WARN_UNUSED_RESULT;
++ (UIColor * _Nonnull)pendingColor SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC19SwapkeyExtensionSDK10SKEOptions")
 @interface SKEOptions : NSObject
@@ -192,6 +214,40 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK10SKEOptions")
 + (NSString * _Nonnull)getBundleGroup SWIFT_WARN_UNUSED_RESULT;
 + (BOOL)debugMode SWIFT_WARN_UNUSED_RESULT;
 + (NSString * _Nonnull)getVaribleToStoreDeviceID SWIFT_WARN_UNUSED_RESULT;
++ (NSInteger)getMaxAttempsToPay SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC19SwapkeyExtensionSDK10SKEStrings")
+@interface SKEStrings : NSObject
++ (NSString * _Nonnull)SKENoInternetConexion SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENoAccess SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKELoading SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEOpenApp SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEOpenSettings SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENotDeviceID SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENoBalanceCard SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENoPin SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENotAllowedHost SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEUserNotLoaded SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKETitleError SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEMaximumAmount SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEMinimumAmount SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEBtnContinueSend SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEBtnSend SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENoValidPIN SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEExceedMaxPINAttemps SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEHadSendYou SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEHadSendYouWA SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKESendTitle SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEPaymentErrorTitle SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEAuthorizePaymentTouchID SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENoTransacctions SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEErrorGettingTransacctions SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKEAuthenticationError SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKENextKeyboard SWIFT_WARN_UNUSED_RESULT;
++ (NSString * _Nonnull)SKESuccesfullCanceled SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -227,8 +283,6 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK17SwapkeyController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
-
-
 
 
 

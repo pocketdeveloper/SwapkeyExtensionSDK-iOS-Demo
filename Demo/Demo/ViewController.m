@@ -32,7 +32,8 @@
     NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
     uniqueIdentifier = [uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
     NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName:[SKEOptions getBundleGroup]];
-    [def setObject:uniqueIdentifier forKey:[SKEOptions getVaribleToStoreDeviceID]];
+    [def setObject:@"DEVICE" forKey:[SKEOptions getVaribleToStoreDeviceID]];
+    //[def setObject:uniqueIdentifier forKey:[SKEOptions getVaribleToStoreDeviceID]];
     [def synchronize];
 }
 
