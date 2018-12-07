@@ -1,5 +1,5 @@
 PODS:
-  - SwapkeyExtensionSDK (0.2.6)
+  - SwapkeyExtensionSDK (1.6)
 
 DEPENDENCIES:
   - SwapkeyExtensionSDK
@@ -9,7 +9,7 @@ SPEC REPOS:
     - SwapkeyExtensionSDK
 
 SPEC CHECKSUMS:
-  SwapkeyExtensionSDK: 57ec6df08500892511e122eb68d8c59b4487fc9e
+  SwapkeyExtensionSDK: 473675a9252a7dd2e6da68affc0028d81b8b3322
 
 PODFILE CHECKSUM: 26a796e3b23a29a6b9574ab79b9be562bb9c605e
 
