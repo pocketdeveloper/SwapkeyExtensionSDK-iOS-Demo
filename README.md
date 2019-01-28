@@ -47,9 +47,8 @@ pod install
 Para inicializar el SDK, se deberá ejecutar el siguiente código
 
 ```
-if ([Swapkey initializeWithKey:@"key"])
+if ([Swapkey initializeWithKey:@"swap" isDevelopment:NO])
 {
-  [Swapkey enableDebugging];
   [self setDeviceID];
 }
 ```
@@ -88,7 +87,7 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Version
 
-Prerelease: 0.2.3
+Release: 1.7
 
 ## Authors
 
