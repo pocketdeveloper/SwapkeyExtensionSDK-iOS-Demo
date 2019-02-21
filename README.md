@@ -87,7 +87,7 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Version
 
-Release: 1.7
+Release: 1.8
 
 ## Authors
 

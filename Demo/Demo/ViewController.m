@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 
-    if ([Swapkey initializeWithKey:@"swap" isDevelopment:NO])
+    if ([Swapkey initializeWithKey:@"swap" isDevelopment:YES])
     {
         bool en = [Swapkey enableDebugging];
         [self setDeviceID];
