@@ -18,12 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    if ([Swapkey initializeWithKey:@"swap" isDevelopment:YES])
-    {
-        bool en = [Swapkey enableDebugging];
-        [self setDeviceID];
-    }
+    
+    [self setDeviceID];
 }
 
 -(void)setDeviceID
@@ -31,8 +27,8 @@
     UIDevice *device = [UIDevice currentDevice];
     NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
     uniqueIdentifier = [uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
-    NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName:[SKEOptions getBundleGroup]];
-    [def setObject:@"DEVICE" forKey:[SKEOptions getVaribleToStoreDeviceID]];
+    NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName: @"group.SKE.Test"];
+    [def setObject:@"DEVICE" forKey:@"deviceID"];
     //[def setObject:uniqueIdentifier forKey:[SKEOptions getVaribleToStoreDeviceID]];
     [def synchronize];
 }

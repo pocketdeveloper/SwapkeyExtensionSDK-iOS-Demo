@@ -41,15 +41,21 @@ Para instalar
 pod install
 ```
 
+Para actualizar
+
+```
+pod update
+```
+
 
 ## Inicializando SDK
 
 Para inicializar el SDK, se deberá ejecutar el siguiente código
 
 ```
-if ([Swapkey initializeWithKey:@"swap" isDevelopment:NO])
+if ([Swapkey initializeWithKey:@"swap" isDevelopment:YES andPreferences:pref])
 {
-  [self setDeviceID];
+  // SDK inicializado correctamente
 }
 ```
 
@@ -65,8 +71,8 @@ A continuación se proporciona un ejemplo de cómo almacenar este número en NSD
     UIDevice *device = [UIDevice currentDevice];
     NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
     uniqueIdentifier = [uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
-    NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName:[SKEOptions getBundleGroup]];
-    [def setObject:uniqueIdentifier forKey:[SKEOptions getVaribleToStoreDeviceID]];
+    NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName:@"NombreDeGrupo"];
+    [def setObject:uniqueIdentifier forKey:[SKEOptions @"VariableParaGuardarDeviceID"]];
     [def synchronize];
 }
 ```
@@ -81,13 +87,12 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 - El deviceID se deberá almacenar en *NSUserDefaults*
 - Se deberá inicializar *NSUserDefaults* con la función 'initWithSuiteName' ya que son los defaults que permiten compartir información entre targets
-- Para inicializar los *NSUserDefaults* se deberá utilizar: '[SKEOptions getBundleGroup]' puesto que esta misma se utilizará dentro del SDK
-- De igual manera obtener el key de donde se almacenará la variable se deberá utilizar '[SKEOptions getVaribleToStoreDeviceID]'
-- La clase 'SKEOptions' se deberá compartir con el target de la extensión
+- Para inicializar los *NSUserDefaults* se deberá utilizar: el mismo nombre que se está enviando en las preferencias del SDK (SKEPreferences)
+- De igual manera obtener el key de donde se almacenará la variable se deberá utilizar  'variableToStoreDevice'
 
 ##  Version
 
-Release: 1.10
+Release: 1.15
 
 ## Authors
 

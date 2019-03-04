@@ -351,16 +351,16 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK6SKELog")
 @end
 
 
-SWIFT_CLASS("_TtC19SwapkeyExtensionSDK10SKEOptions")
-@interface SKEOptions : NSObject
-+ (BOOL)isAllowedHost:(NSString * _Nonnull)host SWIFT_WARN_UNUSED_RESULT;
-+ (BOOL)shouldShowSendKeyboard SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)selfUrlToOpen SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)bundleIdentifier SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)getBundleGroup SWIFT_WARN_UNUSED_RESULT;
-+ (NSString * _Nonnull)getVaribleToStoreDeviceID SWIFT_WARN_UNUSED_RESULT;
-+ (NSInteger)getMaxAttempsToPay SWIFT_WARN_UNUSED_RESULT;
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+SWIFT_CLASS("_TtC19SwapkeyExtensionSDK14SKEPreferences")
+@interface SKEPreferences : NSObject
+@property (nonatomic, copy) NSString * _Nonnull bundleGroup;
+@property (nonatomic, copy) NSString * _Nonnull selfUrlToOpen;
+@property (nonatomic, copy) NSString * _Nonnull variableToStoreDeviceID;
+@property (nonatomic) NSInteger maxAttempsToPay;
+@property (nonatomic) BOOL shouldShowSendKeyboard;
+@property (nonatomic, copy) NSArray<NSString *> * _Nonnull notAllowedHosts;
++ (SKEPreferences * _Nullable)getCurrentPreferences SWIFT_WARN_UNUSED_RESULT;
+- (BOOL)setAsCurrrentPreferences SWIFT_WARN_UNUSED_RESULT;
 @end
 
 
@@ -432,26 +432,50 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK7Swapkey")
 /// </ul>
 /// \param key Llave otorgada por Swap para realizar la integración
 ///
-+ (BOOL)initializeWithKey:(NSString * _Nonnull)key isDevelopment:(BOOL)isDev SWIFT_WARN_UNUSED_RESULT;
++ (BOOL)initializeWithKey:(NSString * _Nonnull)key isDevelopment:(BOOL)isDev andPreferences:(SKEPreferences * _Nonnull)pref SWIFT_WARN_UNUSED_RESULT;
 /// Llamar para obtener en consola algunos insight
 + (BOOL)enableDebugging SWIFT_WARN_UNUSED_RESULT;
+/// Setea las preferencias del SDK
+/// Está función debe llamarse después de inicializar el SDK con la función initialize
+/// <ul>
+///   <li>
+///     Return: True o false, si pudo setear las preferencias
+///   </li>
+/// </ul>
+/// \param key Objeto de tipo SKEPreferences
+///
++ (BOOL)setPreferences:(SKEPreferences * _Nonnull)pref SWIFT_WARN_UNUSED_RESULT;
+/// Valida que ya tenga las preferencias del SDK
+/// Puede llamarse en cualquier momento
+/// <ul>
+///   <li>
+///     Parameter:
+///   </li>
+///   <li>
+///     Return: True or False
+///   </li>
+/// </ul>
++ (BOOL)validatePreferences SWIFT_WARN_UNUSED_RESULT;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIInputViewController;
 @protocol UITextInput;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC19SwapkeyExtensionSDK17SwapkeyController")
-@interface SwapkeyController : UIInputViewController
+@interface SwapkeyController : UIViewController
 @property (nonatomic, strong) IBOutlet UIButton * _Null_unspecified nextKeyboardButton;
+@property (nonatomic, strong) UIInputViewController * _Null_unspecified handler;
 - (void)nextKeyboard;
 - (void)updateViewConstraints;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
-- (void)textWillChange:(id <UITextInput> _Nullable)textInput;
 - (void)textDidChange:(id <UITextInput> _Nullable)textInput;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)init;
+- (nonnull instancetype)initWithHandler:(UIInputViewController * _Nonnull)hdl OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
 @end
 
 

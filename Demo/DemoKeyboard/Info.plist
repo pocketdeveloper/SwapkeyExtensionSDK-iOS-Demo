@@ -21,7 +21,7 @@
 	<key>CFBundleVersion</key>
 	<string>2</string>
 	<key>NSFaceIDUsageDescription</key>
-	<string>Se requiere para autorizar tus pagos</string>
+	<string>Se requiere para pedir autorización en los pagos</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -38,9 +38,7 @@
 		<key>NSExtensionPointIdentifier</key>
 		<string>com.apple.keyboard-service</string>
 		<key>NSExtensionPrincipalClass</key>
-		<string>SwapkeyExtensionSDK.SwapkeyController</string>
+		<string>KeyboardViewController</string>
 	</dict>
-	<key>NSFaceIDUsageDescription</key>
-	<string>Se requiere para pedir autorización en los pagos</string>
 </dict>
 </plist>
