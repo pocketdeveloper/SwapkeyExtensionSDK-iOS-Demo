@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>DemoKeyboard</string>
+	<string>Super TAP</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -17,11 +17,9 @@
 	<key>CFBundlePackageType</key>
 	<string>XPC!</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.6</string>
+	<string>1.7</string>
 	<key>CFBundleVersion</key>
-	<string>2</string>
-	<key>NSFaceIDUsageDescription</key>
-	<string>Se requiere para pedir autorización en los pagos</string>
+	<string>5</string>
 	<key>NSExtension</key>
 	<dict>
 		<key>NSExtensionAttributes</key>
@@ -40,5 +38,7 @@
 		<key>NSExtensionPrincipalClass</key>
 		<string>KeyboardViewController</string>
 	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Se requiere para pedir autorización en los pagos</string>
 </dict>
 </plist>
