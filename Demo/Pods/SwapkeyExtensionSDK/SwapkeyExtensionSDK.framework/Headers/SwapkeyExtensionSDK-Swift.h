@@ -229,12 +229,6 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK16AmountKeyboardUI")
 - (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
-
-SWIFT_CLASS("_TtC19SwapkeyExtensionSDK23BiometricAuthentication")
-@interface BiometricAuthentication : NSObject
-- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
 @class UIScrollView;
 @class UIActivityIndicatorView;
 
