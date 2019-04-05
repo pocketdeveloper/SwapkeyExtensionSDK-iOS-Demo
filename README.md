@@ -92,7 +92,7 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Version
 
-Release: 1.19
+Release: 1.20
 
 ## Authors
 
