@@ -1,5 +1,5 @@
 PODS:
-  - SwapkeyExtensionSDK (1.23)
+  - SwapkeyExtensionSDK (1.25)
 
 DEPENDENCIES:
   - SwapkeyExtensionSDK
@@ -9,8 +9,8 @@ SPEC REPOS:
     - SwapkeyExtensionSDK
 
 SPEC CHECKSUMS:
-  SwapkeyExtensionSDK: be689bf4e0535fd46d98ae055245c27ca47f321e
+  SwapkeyExtensionSDK: 2177319924434d1c6e770505a24d765b54b4a5df
 
 PODFILE CHECKSUM: 26a796e3b23a29a6b9574ab79b9be562bb9c605e
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.5
