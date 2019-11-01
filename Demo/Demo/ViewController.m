@@ -48,8 +48,7 @@
     NSString *uniqueIdentifier = [[device identifierForVendor] UUIDString];
     uniqueIdentifier = [uniqueIdentifier stringByReplacingOccurrencesOfString:@"-" withString:@""];
     NSUserDefaults *def = [[NSUserDefaults alloc] initWithSuiteName: @"group.SKE.Test"];
-    //[def setObject:@"DEVICE" forKey:@"deviceID"];
-    [def setObject:@"8A0A1223-E4A6-419A-A3F4-B5AF9E5DF7CC" forKey:@"deviceID"];
+    [def setObject:@"DEVICE" forKey:@"deviceID"];
     [def synchronize];
     
     return uniqueIdentifier;

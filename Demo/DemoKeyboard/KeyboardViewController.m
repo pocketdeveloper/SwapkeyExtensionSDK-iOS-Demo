@@ -31,7 +31,7 @@
         pref.shouldShowSendKeyboard = YES;
         pref.notAllowedHosts = [[NSArray alloc] init];
         
-        if ([Swapkey initializeWithKey:@"swap" isDevelopment:NO andPreferences:pref])
+        if ([Swapkey initializeWithKey:@"swap" isDevelopment:YES andPreferences:pref])
         {
             BOOL enabled = [Swapkey enableDebugging];
         }
