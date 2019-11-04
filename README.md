@@ -90,9 +90,9 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 - Para inicializar los *NSUserDefaults* se deberá utilizar: el mismo nombre que se está enviando en las preferencias del SDK (SKEPreferences)
 - De igual manera obtener el key de donde se almacenará la variable se deberá utilizar  'variableToStoreDevice'
 
-##  Version
+##  Última Versión
 
-Release: 1.26
+Release: 1.27
 
 ## Authors
 
