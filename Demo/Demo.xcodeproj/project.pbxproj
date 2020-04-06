@@ -18,8 +18,14 @@
 		3F7B46B82186C4E500821D2F /* SKEOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B46B62186C4E500821D2F /* SKEOptions.m */; };
 		3F7B46B92186CF9E00821D2F /* SKEOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B46B62186C4E500821D2F /* SKEOptions.m */; };
 		3F7B46BD2186DBDE00821D2F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7B46BC2186DBDE00821D2F /* Test.swift */; };
+		3FCA8706243AD03200518CEB /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FCA8705243AD03200518CEB /* Messages.framework */; };
+		3FCA870A243AD03200518CEB /* MessagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FCA8709243AD03200518CEB /* MessagesViewController.m */; };
+		3FCA870D243AD03200518CEB /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA870B243AD03200518CEB /* MainInterface.storyboard */; };
+		3FCA870F243AD03300518CEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FCA870E243AD03300518CEB /* Assets.xcassets */; };
+		3FCA8713243AD03300518CEB /* DemoiMessage.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3FCA8704243AD03200518CEB /* DemoiMessage.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		3FD742B9218E9CC50043774D /* SKEStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD742B8218E9CC50043774D /* SKEStrings.m */; };
 		3FD742BC218E9F150043774D /* SKEColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FD742BB218E9F150043774D /* SKEColors.m */; };
+		7E041A1A2929A1FAF4922EF7 /* Pods_DemoiMessage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8774EE9CC6B0A5F50303BE5 /* Pods_DemoiMessage.framework */; };
 		92BC716BCE129A118200E3A8 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A5CAAFDD622F2A81460A1A /* Pods_Demo.framework */; };
 		CB17C58DF2B84000ABE79EA9 /* Pods_DemoKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C06919E7C86600845AF2BA /* Pods_DemoKeyboard.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +38,13 @@
 			remoteGlobalIDString = 3F7B46A62186B5EF00821D2F;
 			remoteInfo = DemoKeyboard;
 		};
+		3FCA8711243AD03300518CEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F7B46822186B30800821D2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FCA8703243AD03200518CEB;
+			remoteInfo = DemoiMessage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +55,7 @@
 			dstSubfolderSpec = 13;
 			files = (
 				3F7B46AF2186B5EF00821D2F /* DemoKeyboard.appex in Embed App Extensions */,
+				3FCA8713243AD03300518CEB /* DemoiMessage.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,13 +85,24 @@
 		3F7B46BA2186D6EB00821D2F /* DemoKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoKeyboard.entitlements; sourceTree = "<group>"; };
 		3F7B46BB2186DBDD00821D2F /* Demo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Demo-Bridging-Header.h"; sourceTree = "<group>"; };
 		3F7B46BC2186DBDE00821D2F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
+		3FCA8704243AD03200518CEB /* DemoiMessage.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DemoiMessage.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FCA8705243AD03200518CEB /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		3FCA8708243AD03200518CEB /* MessagesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessagesViewController.h; sourceTree = "<group>"; };
+		3FCA8709243AD03200518CEB /* MessagesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessagesViewController.m; sourceTree = "<group>"; };
+		3FCA870C243AD03200518CEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		3FCA870E243AD03300518CEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FCA8710243AD03300518CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FCA8717243AD1EF00518CEB /* DemoiMessage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoiMessage.entitlements; sourceTree = "<group>"; };
 		3FD742B7218E9CC50043774D /* SKEStrings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEStrings.h; sourceTree = "<group>"; };
 		3FD742B8218E9CC50043774D /* SKEStrings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEStrings.m; sourceTree = "<group>"; };
 		3FD742BA218E9F150043774D /* SKEColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SKEColors.h; sourceTree = "<group>"; };
 		3FD742BB218E9F150043774D /* SKEColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKEColors.m; sourceTree = "<group>"; };
 		51C06919E7C86600845AF2BA /* Pods_DemoKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E96791E16E8C9D6522EF746 /* Pods-DemoiMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoiMessage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage.debug.xcconfig"; sourceTree = "<group>"; };
 		85A5CAAFDD622F2A81460A1A /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF8A55F98ECE21938BA64E46 /* Pods-DemoiMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoiMessage.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage.release.xcconfig"; sourceTree = "<group>"; };
 		C008245E37CBD1D53F8ACF5B /* Pods-DemoKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoKeyboard/Pods-DemoKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		D8774EE9CC6B0A5F50303BE5 /* Pods_DemoiMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoiMessage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1FA68E46A0F43B47CC77C37 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo/Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,6 +123,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FCA8701243AD03200518CEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA8706243AD03200518CEB /* Messages.framework in Frameworks */,
+				7E041A1A2929A1FAF4922EF7 /* Pods_DemoiMessage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -106,6 +140,7 @@
 			children = (
 				3F7B468C2186B30800821D2F /* Demo */,
 				3F7B46A82186B5EF00821D2F /* DemoKeyboard */,
+				3FCA8707243AD03200518CEB /* DemoiMessage */,
 				3F7B468B2186B30800821D2F /* Products */,
 				BF117713533B84F1562FF8C7 /* Pods */,
 				7783794D7760DD9D946745E9 /* Frameworks */,
@@ -117,6 +152,7 @@
 			children = (
 				3F7B468A2186B30800821D2F /* Demo.app */,
 				3F7B46A72186B5EF00821D2F /* DemoKeyboard.appex */,
+				3FCA8704243AD03200518CEB /* DemoiMessage.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -165,11 +201,26 @@
 			path = SKEFiles;
 			sourceTree = "<group>";
 		};
+		3FCA8707243AD03200518CEB /* DemoiMessage */ = {
+			isa = PBXGroup;
+			children = (
+				3FCA8717243AD1EF00518CEB /* DemoiMessage.entitlements */,
+				3FCA8708243AD03200518CEB /* MessagesViewController.h */,
+				3FCA8709243AD03200518CEB /* MessagesViewController.m */,
+				3FCA870B243AD03200518CEB /* MainInterface.storyboard */,
+				3FCA870E243AD03300518CEB /* Assets.xcassets */,
+				3FCA8710243AD03300518CEB /* Info.plist */,
+			);
+			path = DemoiMessage;
+			sourceTree = "<group>";
+		};
 		7783794D7760DD9D946745E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				85A5CAAFDD622F2A81460A1A /* Pods_Demo.framework */,
 				51C06919E7C86600845AF2BA /* Pods_DemoKeyboard.framework */,
+				3FCA8705243AD03200518CEB /* Messages.framework */,
+				D8774EE9CC6B0A5F50303BE5 /* Pods_DemoiMessage.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -181,6 +232,8 @@
 				F1FA68E46A0F43B47CC77C37 /* Pods-Demo.release.xcconfig */,
 				C008245E37CBD1D53F8ACF5B /* Pods-DemoKeyboard.debug.xcconfig */,
 				27EF87450ABD61977EAC0CEF /* Pods-DemoKeyboard.release.xcconfig */,
+				5E96791E16E8C9D6522EF746 /* Pods-DemoiMessage.debug.xcconfig */,
+				BF8A55F98ECE21938BA64E46 /* Pods-DemoiMessage.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -203,6 +256,7 @@
 			);
 			dependencies = (
 				3F7B46AE2186B5EF00821D2F /* PBXTargetDependency */,
+				3FCA8712243AD03300518CEB /* PBXTargetDependency */,
 			);
 			name = Demo;
 			productName = Demo;
@@ -226,6 +280,24 @@
 			productName = DemoKeyboard;
 			productReference = 3F7B46A72186B5EF00821D2F /* DemoKeyboard.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		3FCA8703243AD03200518CEB /* DemoiMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FCA8714243AD03300518CEB /* Build configuration list for PBXNativeTarget "DemoiMessage" */;
+			buildPhases = (
+				BB3520ADC95A937863D80D19 /* [CP] Check Pods Manifest.lock */,
+				3FCA8700243AD03200518CEB /* Sources */,
+				3FCA8701243AD03200518CEB /* Frameworks */,
+				3FCA8702243AD03200518CEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoiMessage;
+			productName = DemoiMessage;
+			productReference = 3FCA8704243AD03200518CEB /* DemoiMessage.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
 		};
 /* End PBXNativeTarget section */
 
@@ -253,6 +325,9 @@
 							};
 						};
 					};
+					3FCA8703243AD03200518CEB = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 3F7B46852186B30800821D2F /* Build configuration list for PBXProject "Demo" */;
@@ -270,6 +345,7 @@
 			targets = (
 				3F7B46892186B30800821D2F /* Demo */,
 				3F7B46A62186B5EF00821D2F /* DemoKeyboard */,
+				3FCA8703243AD03200518CEB /* DemoiMessage */,
 			);
 		};
 /* End PBXProject section */
@@ -289,6 +365,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCA8702243AD03200518CEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA870F243AD03300518CEB /* Assets.xcassets in Resources */,
+				3FCA870D243AD03200518CEB /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +424,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		BB3520ADC95A937863D80D19 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoiMessage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		E758B95E54B79D058EDBEA29 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,6 +489,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3FCA8700243AD03200518CEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FCA870A243AD03200518CEB /* MessagesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -389,6 +504,11 @@
 			isa = PBXTargetDependency;
 			target = 3F7B46A62186B5EF00821D2F /* DemoKeyboard */;
 			targetProxy = 3F7B46AD2186B5EF00821D2F /* PBXContainerItemProxy */;
+		};
+		3FCA8712243AD03300518CEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FCA8703243AD03200518CEB /* DemoiMessage */;
+			targetProxy = 3FCA8711243AD03300518CEB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -407,6 +527,14 @@
 				3F7B46992186B30A00821D2F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		3FCA870B243AD03200518CEB /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FCA870C243AD03200518CEB /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -463,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -516,7 +644,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -534,7 +662,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G9538PL;
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -543,7 +671,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -558,7 +686,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G9538PL;
 				INFOPLIST_FILE = Demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -566,7 +694,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = swap.Demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Demo/Demo-Bridging-Header.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -579,7 +707,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G9538PL;
 				INFOPLIST_FILE = DemoKeyboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -600,13 +728,57 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P34G9538PL;
 				INFOPLIST_FILE = DemoKeyboard/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = swap.Demo.DemoKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FCA8715243AD03300518CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E96791E16E8C9D6522EF746 /* Pods-DemoiMessage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = DemoiMessage/DemoiMessage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34G9538PL;
+				INFOPLIST_FILE = DemoiMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swap.Demo.DemoiMessage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FCA8716243AD03300518CEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF8A55F98ECE21938BA64E46 /* Pods-DemoiMessage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_ENTITLEMENTS = DemoiMessage/DemoiMessage.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P34G9538PL;
+				INFOPLIST_FILE = DemoiMessage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = swap.Demo.DemoiMessage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -639,6 +811,15 @@
 			buildConfigurations = (
 				3F7B46B12186B5EF00821D2F /* Debug */,
 				3F7B46B22186B5EF00821D2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FCA8714243AD03300518CEB /* Build configuration list for PBXNativeTarget "DemoiMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FCA8715243AD03300518CEB /* Debug */,
+				3FCA8716243AD03300518CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

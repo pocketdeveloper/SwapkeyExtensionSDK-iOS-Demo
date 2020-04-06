@@ -20,14 +20,24 @@
 
 /* Begin PBXBuildFile section */
 		3A29D9BEA7B4AA5EF08B323235C5C4A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		40EE9F61C7BB85A4F0330D608266D4FD /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA08CF6B85B8C43408E39C9F905079D3 /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7654A081E0498092F2E4293FFB54B628 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7823C1D2FEE2D03CA2BD8B46408F4A /* Pods-Demo-dummy.m */; };
-		77DBB5B36CEE91EBA27B3D0330749EDB /* Pods-DemoKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 298EB9BB57FFFBB63D7111E1D1E8890C /* Pods-DemoKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD3F943F08F39B04828C7BDD360576E7 /* Pods-DemoKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4DC427508ED3A454394BC0B1059B2E /* Pods-DemoKeyboard-dummy.m */; };
+		3E30989F8885AA0E181861A26A1EE7D3 /* Pods-DemoiMessage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA137BD252269E750EA4B31038A53CBC /* Pods-DemoiMessage-dummy.m */; };
+		40EE9F61C7BB85A4F0330D608266D4FD /* Pods-Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9844DBAFBE7AB0C3C97ACB24F951324C /* Pods-Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50123AD85DD39E698EE6CA732B76A890 /* Pods-DemoiMessage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 564AA3CFA08CE49D5A6D8AA1731664B4 /* Pods-DemoiMessage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7654A081E0498092F2E4293FFB54B628 /* Pods-Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E79BC95421D94561E91B23321ED9BA /* Pods-Demo-dummy.m */; };
+		77DBB5B36CEE91EBA27B3D0330749EDB /* Pods-DemoKeyboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FE354EFD36ED4BDEC40ABC285DF28A2 /* Pods-DemoKeyboard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B91E7F77219E0E11ACCCC4CE774C67B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DD3F943F08F39B04828C7BDD360576E7 /* Pods-DemoKeyboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60615DB22EE8069CCB649A924315E0FB /* Pods-DemoKeyboard-dummy.m */; };
 		F3151EC5623C46CEBF0681A1C217EC04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0CD650F2AE55AC471118E20C44054A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF3A9A8687CD660C7C9D8F5C29AB4766;
+			remoteInfo = SwapkeyExtensionSDK;
+		};
 		568EF9F60A46890FBCEDEAB54DDEA72C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -45,29 +55,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0C407F2BF7BC6EE66003DB1F49FEBB8B /* Pods-DemoKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKeyboard-Info.plist"; sourceTree = "<group>"; };
-		1B4DC427508ED3A454394BC0B1059B2E /* Pods-DemoKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKeyboard-dummy.m"; sourceTree = "<group>"; };
-		298EB9BB57FFFBB63D7111E1D1E8890C /* Pods-DemoKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKeyboard-umbrella.h"; sourceTree = "<group>"; };
+		1339EE1D83CF3CD0C87FC38E429A1E34 /* Pods-DemoKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B49743DFCEDB84F9C9B63049748DD00 /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		20C452B00FA72AD899A78DD2DDE099B9 /* SwapkeyExtensionSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwapkeyExtensionSDK.debug.xcconfig; sourceTree = "<group>"; };
+		26F05C03672A6EA72CBEC6D277E96A95 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
+		2DDBB823D6E38CDBA862A1C222CADF13 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
+		31E7447078558FFDA705F7F679D67E8F /* Pods-DemoiMessage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoiMessage.debug.xcconfig"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34D73DE38C25BFA667E87CD19D999F23 /* Pods-Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Demo-frameworks.sh"; sourceTree = "<group>"; };
-		3BC0BC0AA1A62F49CDAF65274D9FF4CC /* SwapkeyExtensionSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwapkeyExtensionSDK.xcconfig; sourceTree = "<group>"; };
-		3C7823C1D2FEE2D03CA2BD8B46408F4A /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
-		4B5044621D32AFECAB91D7D46A9C2497 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
-		544283953A03C8645C549A4B36EB6C18 /* Pods-Demo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-Info.plist"; sourceTree = "<group>"; };
-		669243FD68FCF36D3E0E0B889BD91592 /* Pods-DemoKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKeyboard.modulemap"; sourceTree = "<group>"; };
-		697993A72398F6AF5E29145E4A6C2341 /* Pods-DemoKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F9F3ED32F62B17103BE3BCE8223BD33 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
-		74FFDDD0A19F9ADF7E5F683F1F94A2FC /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
-		992285FC404A6C406FD4E6CE08A343FC /* Pods-Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38936AB6A0CEC06C9E7CD1972FDB30F0 /* Pods-DemoKeyboard-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoKeyboard-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C8C8CF7063D6F3EE170DBEC0C0C8BBD /* Pods-DemoKeyboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoKeyboard.modulemap"; sourceTree = "<group>"; };
+		436ED921E3CE174AEDF180C830CDDF8C /* SwapkeyExtensionSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwapkeyExtensionSDK.release.xcconfig; sourceTree = "<group>"; };
+		564AA3CFA08CE49D5A6D8AA1731664B4 /* Pods-DemoiMessage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoiMessage-umbrella.h"; sourceTree = "<group>"; };
+		5DB463F088507389BE6C9E168236A422 /* Pods-Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demo.modulemap"; sourceTree = "<group>"; };
+		5E8542356EACE35EDA08C235504797D9 /* Pods-DemoKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		60615DB22EE8069CCB649A924315E0FB /* Pods-DemoKeyboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoKeyboard-dummy.m"; sourceTree = "<group>"; };
+		616FECA4B63CC566EA29120690452B50 /* Pods-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7666E89A0CFBFAF13E8FA49F59239711 /* Pods-DemoKeyboard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKeyboard-Info.plist"; sourceTree = "<group>"; };
+		7C81655FA3DEB40609E38DC92815A8D9 /* Pods-DemoKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		898B8D2762F83BCAFD06C01493FB962F /* Pods-DemoiMessage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DemoiMessage.modulemap"; sourceTree = "<group>"; };
+		9844DBAFBE7AB0C3C97ACB24F951324C /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
+		99928236DDBE3FF6C18847F7E12E8335 /* Pods-DemoiMessage-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DemoiMessage-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE354EFD36ED4BDEC40ABC285DF28A2 /* Pods-DemoKeyboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DemoKeyboard-umbrella.h"; sourceTree = "<group>"; };
 		A61E6172E8D5B2B0A82AABA1B831A761 /* Pods_DemoKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoKeyboard.framework; path = "Pods-DemoKeyboard.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AFEAE6FDEE88BAB58B44A2A4D06344DD /* SwapkeyExtensionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwapkeyExtensionSDK.framework; sourceTree = "<group>"; };
-		B8C2C0B191C25C4DC2A0DE32B64C9944 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		C45860B2361B3B5915B08B58585D19F1 /* Pods-DemoKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		A7B8205759C8C2EE801506A301699C13 /* Pods-Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		AAB19FBAB7D8C0A5D2EA04D704A32556 /* Pods-DemoiMessage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoiMessage.release.xcconfig"; sourceTree = "<group>"; };
+		B464AA21FFCF76A3354F3DF65E54E886 /* Pods-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		BA232135F3EBC6E38B00536D4C39D67A /* Pods-DemoiMessage-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoiMessage-acknowledgements.plist"; sourceTree = "<group>"; };
+		C595D330650293BA9C7FB598B41EB464 /* SwapkeyExtensionSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SwapkeyExtensionSDK.framework; sourceTree = "<group>"; };
+		C625CA2E8EB66173ED8EE8045D3C433B /* Pods_DemoiMessage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DemoiMessage.framework; path = "Pods-DemoiMessage.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C694DE63ED5EAB66E3CA6D184271692B /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Demo.framework; path = "Pods-Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8ACC74E6A7BD0A790E367EB3A4CC9C9 /* Pods-DemoKeyboard-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoKeyboard-acknowledgements.plist"; sourceTree = "<group>"; };
-		CA08CF6B85B8C43408E39C9F905079D3 /* Pods-Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demo-umbrella.h"; sourceTree = "<group>"; };
-		DFEBE1EA38596597C9F64E76B9C6EFA3 /* Pods-DemoKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DemoKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		CC5B8A37BA79B167428D7677B0AD301A /* Pods-DemoiMessage-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DemoiMessage-Info.plist"; sourceTree = "<group>"; };
+		DA137BD252269E750EA4B31038A53CBC /* Pods-DemoiMessage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DemoiMessage-dummy.m"; sourceTree = "<group>"; };
+		F2E79BC95421D94561E91B23321ED9BA /* Pods-Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demo-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3151EC5623C46CEBF0681A1C217EC04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99E84EBE88BAB4C3F425691BD06AA77C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B91E7F77219E0E11ACCCC4CE774C67B6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,82 +118,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08DD1E08B81C0F616C0738504F255C75 /* SwapkeyExtensionSDK */ = {
-			isa = PBXGroup;
-			children = (
-				C45EA82A0DE12D53F3D0BFB251BCDF8B /* Frameworks */,
-				53E359729DA75F623A44D197D4B04072 /* Support Files */,
-			);
-			name = SwapkeyExtensionSDK;
-			path = SwapkeyExtensionSDK;
-			sourceTree = "<group>";
-		};
 		098101B3819BD72BA41288B635F21A4F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				08DD1E08B81C0F616C0738504F255C75 /* SwapkeyExtensionSDK */,
+				B80715D9917E7060BF62D29E42E18577 /* SwapkeyExtensionSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		1E5317977B3F0452E14557BC00EB98A1 /* Products */ = {
+		1E57B5BD12D43AFDEAEDF2981C3F60AC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C694DE63ED5EAB66E3CA6D184271692B /* Pods_Demo.framework */,
-				A61E6172E8D5B2B0A82AABA1B831A761 /* Pods_DemoKeyboard.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		53E359729DA75F623A44D197D4B04072 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				3BC0BC0AA1A62F49CDAF65274D9FF4CC /* SwapkeyExtensionSDK.xcconfig */,
+				20C452B00FA72AD899A78DD2DDE099B9 /* SwapkeyExtensionSDK.debug.xcconfig */,
+				436ED921E3CE174AEDF180C830CDDF8C /* SwapkeyExtensionSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SwapkeyExtensionSDK";
 			sourceTree = "<group>";
 		};
-		5ED1D8E9EB567C13914D06FBCDEDBAAD /* Pods-DemoKeyboard */ = {
+		76904AB0688CE1A8C9B8FA8AF92D08FE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				669243FD68FCF36D3E0E0B889BD91592 /* Pods-DemoKeyboard.modulemap */,
-				697993A72398F6AF5E29145E4A6C2341 /* Pods-DemoKeyboard-acknowledgements.markdown */,
-				C8ACC74E6A7BD0A790E367EB3A4CC9C9 /* Pods-DemoKeyboard-acknowledgements.plist */,
-				1B4DC427508ED3A454394BC0B1059B2E /* Pods-DemoKeyboard-dummy.m */,
-				0C407F2BF7BC6EE66003DB1F49FEBB8B /* Pods-DemoKeyboard-Info.plist */,
-				298EB9BB57FFFBB63D7111E1D1E8890C /* Pods-DemoKeyboard-umbrella.h */,
-				C45860B2361B3B5915B08B58585D19F1 /* Pods-DemoKeyboard.debug.xcconfig */,
-				DFEBE1EA38596597C9F64E76B9C6EFA3 /* Pods-DemoKeyboard.release.xcconfig */,
-			);
-			name = "Pods-DemoKeyboard";
-			path = "Target Support Files/Pods-DemoKeyboard";
-			sourceTree = "<group>";
-		};
-		B50F433D5C75FC188380D4B7CEC00237 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				B6ACCF7648295AC25E046A51A10C94C4 /* Pods-Demo */,
-				5ED1D8E9EB567C13914D06FBCDEDBAAD /* Pods-DemoKeyboard */,
+				FFF4235605C2FE18E23E6D1CE71C7DF0 /* Pods-Demo */,
+				CEC7ECC9A3D4A61D91F91B8BB10AD66A /* Pods-DemoiMessage */,
+				DF38CC510A87B3807AEDB193FD729FC1 /* Pods-DemoKeyboard */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B6ACCF7648295AC25E046A51A10C94C4 /* Pods-Demo */ = {
+		B80715D9917E7060BF62D29E42E18577 /* SwapkeyExtensionSDK */ = {
 			isa = PBXGroup;
 			children = (
-				74FFDDD0A19F9ADF7E5F683F1F94A2FC /* Pods-Demo.modulemap */,
-				992285FC404A6C406FD4E6CE08A343FC /* Pods-Demo-acknowledgements.markdown */,
-				6F9F3ED32F62B17103BE3BCE8223BD33 /* Pods-Demo-acknowledgements.plist */,
-				3C7823C1D2FEE2D03CA2BD8B46408F4A /* Pods-Demo-dummy.m */,
-				34D73DE38C25BFA667E87CD19D999F23 /* Pods-Demo-frameworks.sh */,
-				544283953A03C8645C549A4B36EB6C18 /* Pods-Demo-Info.plist */,
-				CA08CF6B85B8C43408E39C9F905079D3 /* Pods-Demo-umbrella.h */,
-				B8C2C0B191C25C4DC2A0DE32B64C9944 /* Pods-Demo.debug.xcconfig */,
-				4B5044621D32AFECAB91D7D46A9C2497 /* Pods-Demo.release.xcconfig */,
+				C58745692EC6B85AAAB37749AC8D9BC3 /* Frameworks */,
+				1E57B5BD12D43AFDEAEDF2981C3F60AC /* Support Files */,
 			);
-			name = "Pods-Demo";
-			path = "Target Support Files/Pods-Demo";
+			name = SwapkeyExtensionSDK;
+			path = SwapkeyExtensionSDK;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -176,12 +164,28 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C45EA82A0DE12D53F3D0BFB251BCDF8B /* Frameworks */ = {
+		C58745692EC6B85AAAB37749AC8D9BC3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				AFEAE6FDEE88BAB58B44A2A4D06344DD /* SwapkeyExtensionSDK.framework */,
+				C595D330650293BA9C7FB598B41EB464 /* SwapkeyExtensionSDK.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC7ECC9A3D4A61D91F91B8BB10AD66A /* Pods-DemoiMessage */ = {
+			isa = PBXGroup;
+			children = (
+				898B8D2762F83BCAFD06C01493FB962F /* Pods-DemoiMessage.modulemap */,
+				99928236DDBE3FF6C18847F7E12E8335 /* Pods-DemoiMessage-acknowledgements.markdown */,
+				BA232135F3EBC6E38B00536D4C39D67A /* Pods-DemoiMessage-acknowledgements.plist */,
+				DA137BD252269E750EA4B31038A53CBC /* Pods-DemoiMessage-dummy.m */,
+				CC5B8A37BA79B167428D7677B0AD301A /* Pods-DemoiMessage-Info.plist */,
+				564AA3CFA08CE49D5A6D8AA1731664B4 /* Pods-DemoiMessage-umbrella.h */,
+				31E7447078558FFDA705F7F679D67E8F /* Pods-DemoiMessage.debug.xcconfig */,
+				AAB19FBAB7D8C0A5D2EA04D704A32556 /* Pods-DemoiMessage.release.xcconfig */,
+			);
+			name = "Pods-DemoiMessage";
+			path = "Target Support Files/Pods-DemoiMessage";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -190,8 +194,8 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				098101B3819BD72BA41288B635F21A4F /* Pods */,
-				1E5317977B3F0452E14557BC00EB98A1 /* Products */,
-				B50F433D5C75FC188380D4B7CEC00237 /* Targets Support Files */,
+				E963FF3442AA5632543696E796B087C6 /* Products */,
+				76904AB0688CE1A8C9B8FA8AF92D08FE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,9 +207,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DF38CC510A87B3807AEDB193FD729FC1 /* Pods-DemoKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3C8C8CF7063D6F3EE170DBEC0C0C8BBD /* Pods-DemoKeyboard.modulemap */,
+				38936AB6A0CEC06C9E7CD1972FDB30F0 /* Pods-DemoKeyboard-acknowledgements.markdown */,
+				1339EE1D83CF3CD0C87FC38E429A1E34 /* Pods-DemoKeyboard-acknowledgements.plist */,
+				60615DB22EE8069CCB649A924315E0FB /* Pods-DemoKeyboard-dummy.m */,
+				7666E89A0CFBFAF13E8FA49F59239711 /* Pods-DemoKeyboard-Info.plist */,
+				9FE354EFD36ED4BDEC40ABC285DF28A2 /* Pods-DemoKeyboard-umbrella.h */,
+				7C81655FA3DEB40609E38DC92815A8D9 /* Pods-DemoKeyboard.debug.xcconfig */,
+				5E8542356EACE35EDA08C235504797D9 /* Pods-DemoKeyboard.release.xcconfig */,
+			);
+			name = "Pods-DemoKeyboard";
+			path = "Target Support Files/Pods-DemoKeyboard";
+			sourceTree = "<group>";
+		};
+		E963FF3442AA5632543696E796B087C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C694DE63ED5EAB66E3CA6D184271692B /* Pods_Demo.framework */,
+				C625CA2E8EB66173ED8EE8045D3C433B /* Pods_DemoiMessage.framework */,
+				A61E6172E8D5B2B0A82AABA1B831A761 /* Pods_DemoKeyboard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFF4235605C2FE18E23E6D1CE71C7DF0 /* Pods-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				5DB463F088507389BE6C9E168236A422 /* Pods-Demo.modulemap */,
+				1B49743DFCEDB84F9C9B63049748DD00 /* Pods-Demo-acknowledgements.markdown */,
+				A7B8205759C8C2EE801506A301699C13 /* Pods-Demo-acknowledgements.plist */,
+				F2E79BC95421D94561E91B23321ED9BA /* Pods-Demo-dummy.m */,
+				26F05C03672A6EA72CBEC6D277E96A95 /* Pods-Demo-frameworks.sh */,
+				2DDBB823D6E38CDBA862A1C222CADF13 /* Pods-Demo-Info.plist */,
+				9844DBAFBE7AB0C3C97ACB24F951324C /* Pods-Demo-umbrella.h */,
+				B464AA21FFCF76A3354F3DF65E54E886 /* Pods-Demo.debug.xcconfig */,
+				616FECA4B63CC566EA29120690452B50 /* Pods-Demo.release.xcconfig */,
+			);
+			name = "Pods-Demo";
+			path = "Target Support Files/Pods-Demo";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		802B3B11986D755FF851750E846C9336 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50123AD85DD39E698EE6CA732B76A890 /* Pods-DemoiMessage-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F537057A6D383032969400231A8937B8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -263,6 +318,25 @@
 			productReference = A61E6172E8D5B2B0A82AABA1B831A761 /* Pods_DemoKeyboard.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		FC95DD7C1B71CA5BA831DAB9C1AAA288 /* Pods-DemoiMessage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F71A4C3509F44B37FE63FFE1DE03864F /* Build configuration list for PBXNativeTarget "Pods-DemoiMessage" */;
+			buildPhases = (
+				802B3B11986D755FF851750E846C9336 /* Headers */,
+				5CE8400DDA0CAD116CD1B58A127FB874 /* Sources */,
+				99E84EBE88BAB4C3F425691BD06AA77C /* Frameworks */,
+				62902F4D2055EB3742AD97A73C9B63ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7257D0BBD62D6E2BB41A3AE6C21B6EF1 /* PBXTargetDependency */,
+			);
+			name = "Pods-DemoiMessage";
+			productName = "Pods-DemoiMessage";
+			productReference = C625CA2E8EB66173ED8EE8045D3C433B /* Pods_DemoiMessage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,13 +352,15 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 1E5317977B3F0452E14557BC00EB98A1 /* Products */;
+			productRefGroup = E963FF3442AA5632543696E796B087C6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				380694B9ADC0CBB5D29A662EFE7F52C8 /* Pods-Demo */,
+				FC95DD7C1B71CA5BA831DAB9C1AAA288 /* Pods-DemoiMessage */,
 				E1D2D55DC509FE75412A97667F7F1151 /* Pods-DemoKeyboard */,
 				FF3A9A8687CD660C7C9D8F5C29AB4766 /* SwapkeyExtensionSDK */,
 			);
@@ -306,9 +382,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		62902F4D2055EB3742AD97A73C9B63ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5CE8400DDA0CAD116CD1B58A127FB874 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E30989F8885AA0E181861A26A1EE7D3 /* Pods-DemoiMessage-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7AD0D013D166362E3E4C8BF01C92355B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,6 +425,12 @@
 			target = FF3A9A8687CD660C7C9D8F5C29AB4766 /* SwapkeyExtensionSDK */;
 			targetProxy = 568EF9F60A46890FBCEDEAB54DDEA72C /* PBXContainerItemProxy */;
 		};
+		7257D0BBD62D6E2BB41A3AE6C21B6EF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwapkeyExtensionSDK;
+			target = FF3A9A8687CD660C7C9D8F5C29AB4766 /* SwapkeyExtensionSDK */;
+			targetProxy = 0CD650F2AE55AC471118E20C44054A0D /* PBXContainerItemProxy */;
+		};
 		FC1AB4D8334D74266CD0C944C5F51CE0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwapkeyExtensionSDK;
@@ -343,50 +440,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1020BDFC0E5D21B3848827B8CEFE6339 /* Release */ = {
+		19AFF5DFFAF0E95851D044D50E4C7EFC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B5044621D32AFECAB91D7D46A9C2497 /* Pods-Demo.release.xcconfig */;
+			baseConfigurationReference = 5E8542356EACE35EDA08C235504797D9 /* Pods-DemoKeyboard.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1EE22033499ECC4E1E6E83BAD34C0E33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFEBE1EA38596597C9F64E76B9C6EFA3 /* Pods-DemoKeyboard.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +457,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DemoKeyboard/Pods-DemoKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -420,7 +479,7 @@
 			};
 			name = Release;
 		};
-		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+		257497152829C177993B5EC99C1D227A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -468,7 +527,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -480,12 +539,124 @@
 			};
 			name = Release;
 		};
-		5BDE096D7399684F283348D7685DE04E /* Debug */ = {
+		2603F7A3CEB73EFEB1C5319EFEC70FBD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C45860B2361B3B5915B08B58585D19F1 /* Pods-DemoKeyboard.debug.xcconfig */;
+			baseConfigurationReference = 616FECA4B63CC566EA29120690452B50 /* Pods-Demo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28FC2F9D2B25FBB1D22889AC442033A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 436ED921E3CE174AEDF180C830CDDF8C /* SwapkeyExtensionSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2A30319560406BF9A73D44E41490F2D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C452B00FA72AD899A78DD2DDE099B9 /* SwapkeyExtensionSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		77B21936EC19754C73BD55E4ED926A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31E7447078558FFDA705F7F679D67E8F /* Pods-DemoiMessage.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B7A89C10F119377BB4CBDA5402DD14AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C81655FA3DEB40609E38DC92815A8D9 /* Pods-DemoKeyboard.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -497,7 +668,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-DemoKeyboard/Pods-DemoKeyboard-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,25 +689,45 @@
 			};
 			name = Debug;
 		};
-		7559E3872A5B94BC591B8381C71C5E4B /* Release */ = {
+		CCAC957BF3D070E6605FCB4D29935C06 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC0BC0AA1A62F49CDAF65274D9FF4CC /* SwapkeyExtensionSDK.xcconfig */;
+			baseConfigurationReference = B464AA21FFCF76A3354F3DF65E54E886 /* Pods-Demo.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -587,7 +778,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -600,28 +791,12 @@
 			};
 			name = Debug;
 		};
-		91A6EBB99A8E66195BE6A7409C76DB6D /* Debug */ = {
+		DE993C002042720C4737111013567B12 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC0BC0AA1A62F49CDAF65274D9FF4CC /* SwapkeyExtensionSDK.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C3E851016CB7F535E3C25DA432725C77 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B8C2C0B191C25C4DC2A0DE32B64C9944 /* Pods-Demo.debug.xcconfig */;
+			baseConfigurationReference = AAB19FBAB7D8C0A5D2EA04D704A32556 /* Pods-DemoiMessage.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -631,16 +806,16 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Demo/Pods-Demo-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Demo/Pods-Demo.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-DemoiMessage/Pods-DemoiMessage.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -649,10 +824,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -660,8 +836,8 @@
 		1435DC34D4888A15EA5598E848D54F7C /* Build configuration list for PBXNativeTarget "Pods-Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E851016CB7F535E3C25DA432725C77 /* Debug */,
-				1020BDFC0E5D21B3848827B8CEFE6339 /* Release */,
+				CCAC957BF3D070E6605FCB4D29935C06 /* Debug */,
+				2603F7A3CEB73EFEB1C5319EFEC70FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -669,8 +845,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
-				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -678,8 +854,8 @@
 		C351449D939341753A3602F742BFAB5D /* Build configuration list for PBXNativeTarget "Pods-DemoKeyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5BDE096D7399684F283348D7685DE04E /* Debug */,
-				1EE22033499ECC4E1E6E83BAD34C0E33 /* Release */,
+				B7A89C10F119377BB4CBDA5402DD14AA /* Debug */,
+				19AFF5DFFAF0E95851D044D50E4C7EFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -687,8 +863,17 @@
 		C8BB8E9255C10BAEF4C5A278DCCBF602 /* Build configuration list for PBXAggregateTarget "SwapkeyExtensionSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				91A6EBB99A8E66195BE6A7409C76DB6D /* Debug */,
-				7559E3872A5B94BC591B8381C71C5E4B /* Release */,
+				2A30319560406BF9A73D44E41490F2D8 /* Debug */,
+				28FC2F9D2B25FBB1D22889AC442033A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F71A4C3509F44B37FE63FFE1DE03864F /* Build configuration list for PBXNativeTarget "Pods-DemoiMessage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B21936EC19754C73BD55E4ED926A63 /* Debug */,
+				DE993C002042720C4737111013567B12 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

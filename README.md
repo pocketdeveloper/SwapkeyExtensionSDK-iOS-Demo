@@ -5,7 +5,7 @@ Demo con ejemplo de implementación para el SDK de Swapkey
 ### Requisitos
 
 - Cocoapods 
-- Soportar iOS 8 o superior
+- Soportar iOS 11 o superior
 
 ## Instalar vía Pod
 
@@ -16,21 +16,28 @@ pod 'SwapkeyExtensionSDK'
 
 ### Ejemplo de podfile
 
-Debido a que la extensión es un target diferente a la aplicación, se deberá instalar el pod que se pueda compartir en ambos target tanto el de la aplicación como el de la extensión del teclado
+Debido a que la extensión es un target diferente a la aplicación, se deberá instalar el pod que se pueda compartir en los 3 target's:
+    - Aplicación Host
+    - Extensión de Teclado
+    - Extensión de iMessage
 
 ```
-platform :ios, '8.0'
+platform :ios, '11.0'
 use_frameworks!
 
 def swap_pods
 	pod 'SwapkeyExtensionSDK'
 end
 
-target 'NombreTargetAplicacion' do
+target 'NombreTargetAplicacionHost' do
     swap_pods
 end
 
-target 'NombreTargetExtension' do
+target 'NombreTargetExtensionKeyboard' do
+    swap_pods
+end
+
+target 'NombreTargetExtensioniMessage' do
     swap_pods
 end
 ```
@@ -48,7 +55,7 @@ pod update
 ```
 
 
-## Inicializando SDK
+## Inicializando SDK para Teclado
 
 Para inicializar el SDK, se deberá ejecutar el siguiente código
 
@@ -92,7 +99,8 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Última Versión
 
-Release: 1.27
+Release: 1.32
+Comentarios: Se agrega soporte para extensión de iMessage
 
 ## Authors
 
