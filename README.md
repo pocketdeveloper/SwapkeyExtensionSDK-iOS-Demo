@@ -99,7 +99,7 @@ Se ha preparado una guía paso a paso con lo detalles para la inegración:
 
 ##  Última Versión
 
-Release: 1.32
+Release: 1.33
 Comentarios: Se agrega soporte para extensión de iMessage
 
 ## Authors
