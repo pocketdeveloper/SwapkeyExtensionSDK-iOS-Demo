@@ -510,6 +510,7 @@ SWIFT_PROTOCOL("_TtP19SwapkeyExtensionSDK26SwapkeyMainHandlerProtocol_")
 @property (nonatomic) BOOL tappedSTAP;
 @required
 @property (nonatomic, readonly, copy) NSString * _Nonnull currentHost;
+@property (nonatomic, readonly, copy) NSString * _Nonnull target;
 @optional
 - (void)setTappedSTAPValueWithVal:(BOOL)val;
 @required
@@ -545,6 +546,7 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK17SwapkeyController")
 @property (nonatomic, copy) NSString * _Nonnull currentHost;
 @property (nonatomic) BOOL tappedSTAP;
 @property (nonatomic, strong) SKEUser * _Null_unspecified user;
+@property (nonatomic, copy) NSString * _Nonnull target;
 - (void)setTappedSTAPValueWithVal:(BOOL)val;
 - (void)cleanCurrentPayment;
 - (void)setNormalKeyboardWithHideBtn:(BOOL)hide;
@@ -584,6 +586,7 @@ SWIFT_CLASS("_TtC19SwapkeyExtensionSDK19SwapkeyMessagesMain")
 @property (nonatomic, strong) MSMessagesAppViewController * _Nonnull handler;
 @property (nonatomic, strong) SKEUser * _Null_unspecified user;
 @property (nonatomic, copy) NSString * _Nonnull currentHost;
+@property (nonatomic, copy) NSString * _Nonnull target;
 - (void)cleanCurrentPayment;
 - (void)setNormalKeyboardWithHideBtn:(BOOL)hide;
 - (void)showWithMessage:(NSString * _Nonnull)message error:(NSString * _Nonnull)error;
